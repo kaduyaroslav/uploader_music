@@ -24,7 +24,7 @@ A Telegram bot built with Python and [aiogram](https://docs.aiogram.dev/) that c
 | `main.py` | Entry point, starts the bot (long polling) |
 | `router.py` | Message handlers: audio upload and `/upload` command |
 | `storage.py` | Saving files, duplicate check, JSON log with `asyncio.Lock` and safe writes |
-| `oiov.py` | Loads settings from the `.env` file |
+| `config.py` | Loads settings from the `.env` file |
 | `.env.example` | Example of environment variables |
 
 ## Installation
