@@ -25,7 +25,7 @@ async def process_audio(message: Message, bot: Bot ):
     async def say_thank():
         try:
             await sleep(90)
-            await bot.send_message(chat_id=chat_id, text="thank youugit --version for using")
+            await bot.send_message(chat_id=chat_id, text="Thank you for using the bot!")
         finally:
             if pending_timers.get(user_id) is asyncio.current_task():
                 pending_timers.pop(user_id, None)
